@@ -36,11 +36,11 @@ function Header() {
 
                     <div className={classes.promixbuttondiv}>
                         <button className={classes.loginbutton}>
-                            <p className={classes.loginbuttontext}>Log In</p>
+                            Log In
                         </button>
 
                         <button className={classes.signupbutton}>
-                            <p className={classes.signupbuttontext}>Sign Up</p>
+                            Sign Up
                         </button>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ function Header() {
 
                             <div className={classes.buttonandtext}>
                                 <button className={classes.startedbutton}>
-                                    <p className={classes.startedbuttontext}>Get started</p>
+                                    Get started
                                 </button>
 
                                 <p className={classes.howitworkstext}>See How it works</p>
