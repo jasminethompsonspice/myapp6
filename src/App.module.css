@@ -1,0 +1,376 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.backgroundimg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.infoandnumbertext {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: Inter;
+  font-weight: bolder;
+  margin-top: 10px;
+
+}
+
+
+.Mailandcalltext {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-family: Inter;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+
+.Mailusdiv {
+  display: flex;
+  gap: 1%;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.Callusdiv {
+  display: flex;
+  gap: 1%;
+  width: 30%;
+  margin-left: -2%;
+  margin-top: 10px;
+
+}
+
+.headertopdiv {
+  gap: 3%;
+  display: flex;
+  margin-left: 70px;
+  /* margin-top: 20px; */
+  height: 50px;
+
+  
+}
+
+.FirstHeader {
+
+}
+
+.line {
+  color: white;
+  width: 100%;
+}
+
+.Ogunlogo {
+  
+}
+
+.Ogunlogotext {
+  color: white;
+}
+
+.headermidtextdiv {
+  color: white;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: lighter;
+  display: flex;
+  gap: 6%;
+}
+
+.selecticon {
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.headermidtext1 {
+  color: rgba(172, 231, 199, 1);
+
+}
+
+.arrowimg {
+
+
+
+}
+
+.headermidbuttontext {
+  color: rgba(255, 255, 255, 1);
+  font-family:  Inter;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.greenbuttonheader {
+  background-color: rgba(45, 153, 95, 1);
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 248px;
+  height: 46px;
+  gap: 3%;
+}
+
+.ogunlogoandtext {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+
+.legendstext {
+  display: flex;
+}
+
+.headermiddlediv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3%;
+  margin-left: -2%;
+}
+
+.headermidtext {
+  gap: 3%;
+}
+
+.gatewaytext {
+  font-weight: 900px;
+  font-size: 90px ;
+  margin-bottom: -6%;
+  color: #FFFFFF;
+
+}
+
+.frenchtext {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left:9% ;
+}
+
+.headerdownbutton {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 180px;
+  height: 40px;
+
+}
+
+.headerdownbuttontext {
+  color: green;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.headerdowndiv {
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.gatewaytextt {
+  font-weight: 900px;
+  font-size: 90px ;
+  font-family: Inter;
+  margin-bottom: -2%;
+  color: #FFFFFF;
+
+}
+
+.headerdownbutton {
+  margin-left: 9%;
+
+}
+
+.FirstHeader {
+  height: 650px;
+}
+
+
+
+.exploretext{
+  color: rgba(52, 58, 64, 1);
+  font-family: inter;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1%;
+}
+.exploretext2{
+  color: rgba(108, 117, 125, 1);
+  font-family: inter;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.section1box1{
+  background-color: rgba(45, 153, 95, 1);
+  width: 280px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+
+
+.box1bigtext{
+  color: rgba(255, 255, 255, 1);
+  font-family: inter;
+  font-size: 30px;
+}
+.box1smalltext{
+  color: rgba(255, 255, 255, 1);
+  font-family: inter;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+
+.section2box2{
+  background-color: white;
+  width: 280px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+
+
+.box2bigtext{
+  color: green;
+  font-family: inter;
+  font-size: 30px;
+}
+
+.box2smalltext{
+  color: rgba(108, 117, 125, 1);
+  font-family: inter;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+
+.section1 {
+  gap: 10%;
+}
+
+.backgroundimg2 {
+  position: absolute;
+  z-index: -1;
+
+}
+
+
+
+.section3box3{
+  background-color: white;
+  width: 280px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+
+
+.box3bigtext{
+  color: green;
+  font-family: inter;
+  font-size: 30px;
+}
+.box3smalltext{
+  color: rgba(108, 117, 125, 1);
+  font-family: inter;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+.boxsmalltextdiv {
+  display: flex;
+  align-items: center;
+}
+
+.section2boxes {
+  margin-bottom: 5%;
+}
+
+
+.section4box4{
+  
+  width: 280px;
+  height: 320px;
+  border-radius: 8px;
+}
+
+.box4bigtext{
+  color: green;
+  font-family: inter;
+  font-size: 30px;
+}
+.box4smalltext{
+  color: rgba(108, 117, 125, 1);
+  font-family: inter;
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+.boxsmalltextdiv {
+  display: flex;
+  align-items: center;
+}
+
+.section4boxes {
+  margin-bottom: 5%;
+}
+
+
+.section3boxes {
+  margin-bottom: 5%;
+}
+
+
+
+
